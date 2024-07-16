@@ -1,0 +1,296 @@
+repo_name: Huntemall/automata-dev
+report_id: c728108e0071bb9cee1a8c64ebf559d4
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:56:58+00:00'
+requested_by: emrgnt-cmplxty
+provider: github
+branch: dev
+detected_tools_count: 20
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Huntemall/automata-dev
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/automata-dev
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/automata-dev
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Owen
+  last_updated_on: 2023-06-12 16:35:33.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Owen
+  last_updated_on: 2023-06-12 16:35:33.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/automata-dev
+  detection_source: Repo Metadata
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-07-17 19:22:37.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: colorlog
+  description: Log formatting with colors!
+  package_url: https://pypi.org/project/colorlog
+  version: 6.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19948/default_611a1328f69b729fac0a7b8bf87ff04e8ce35e17.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Nolan Tremelling
+  last_updated_on: 2023-07-11 13:24:34.000000000 Z
+- name: flake8
+  description: 'The modular source code checker: pep8, pyflakes and co'
+  package_url: https://pypi.org/project/flake8
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19920/default_c8be5290cb8d8a8b578535a2c6475d1057ff4ea4.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: 1.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/project/numpy
+  version: 1.25.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-08-08 04:34:30.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Nolan Tremelling
+  last_updated_on: 2023-07-11 13:24:34.000000000 Z
+- name: pre-commit
+  description: A framework for managing and maintaining multi-language pre-commit
+    hooks
+  package_url: https://pypi.org/project/pre-commit
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20560/default_d975dcf643a054134f39226d51d4a5fea9320efe.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-08-11 00:16:00.000000000 Z
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Nolan Tremelling
+  last_updated_on: 2023-07-11 13:24:34.000000000 Z
+- name: yapf
+  description: A formatter for Python code
+  package_url: https://pypi.org/project/yapf
+  version: 0.40.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20399/default_27c957eac1674813a0a457a78f430be9e3c184a7.png
+  detection_source_url: https://github.com/Huntemall/automata-dev/blob/dev/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: emrgnt-cmplxty
+  last_updated_on: 2023-09-04 03:46:16.000000000 Z
